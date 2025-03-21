@@ -8,18 +8,15 @@
     android:background="#000000"
     android:orientation="horizontal"
     tools:context=".MainActivity">
-
     <TableRow
         android:background="#666666"
         android:padding="10dp">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bahasa"
             android:textColor="#ffffff" />
     </TableRow>
-
     <TableRow>
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +24,6 @@
             android:padding="10dp"
             android:text="@string/pilihbahasa"
             android:textColor="#ffffff" />
-
         <Spinner
             android:id="@+id/spinnerLanguage"
             android:layout_width="0dp"
@@ -35,59 +31,48 @@
             android:layout_weight="1"
             android:background="@android:drawable/btn_dropdown" />
     </TableRow>
-
     <TableRow
         android:background="#666666"
         android:padding="10dp">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/lokasi"
             android:textColor="#ffffff" />
     </TableRow>
-
     <TableRow>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/jalan"
             android:textColor="#ffffff" />
-
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:drawable/dialog_holo_light_frame" />
     </TableRow>
-
     <TableRow>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/kodePos"
             android:textColor="#ffffff" />
-
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:drawable/dialog_holo_light_frame" />
     </TableRow>
-
     <TableRow>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/negara"
             android:textColor="#ffffff" />
-
         <Spinner
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -95,27 +80,22 @@
             android:background="@android:drawable/btn_dropdown"
             android:entries="@array/daftarNegara" />
     </TableRow>
-
     <TableRow
         android:background="#666666"
         android:padding="10dp">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/pemakai"
             android:textColor="#ffffff" />
     </TableRow>
-
     <TableRow>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/nama"
             android:textColor="#ffffff" />
-
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -123,16 +103,13 @@
             android:background="@android:drawable/dialog_holo_light_frame"
             android:inputType="textCapWords" />
     </TableRow>
-
     <TableRow>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/telp"
             android:textColor="#ffffff" />
-
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -140,16 +117,13 @@
             android:background="@android:drawable/dialog_holo_light_frame"
             android:inputType="phone" />
     </TableRow>
-
     <TableRow>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/sandi"
             android:textColor="#ffffff" />
-
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -157,16 +131,13 @@
             android:background="@android:drawable/dialog_holo_light_frame"
             android:inputType="textPassword" />
     </TableRow>
-
     <TableRow>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/tglLahir"
             android:textColor="#ffffff" />
-
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -174,20 +145,16 @@
             android:background="@android:drawable/dialog_holo_light_frame"
             android:inputType="date" />
     </TableRow>
-
     <TableRow>
-
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/ulang" />
-
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/simpan" />
     </TableRow>
-
 </TableLayout>

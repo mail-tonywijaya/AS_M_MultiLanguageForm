@@ -2,12 +2,11 @@
 <resources>
     <string name="app_name">Multi Language Form</string>
     <string name="bahasa">Language</string>
-    <string name="pilihbahasa">choose language</string>
+    <string name="pilihbahasa">Choose Language</string>
     <string name="lokasi">Location</string>
     <string name="jalan">Street</string>
     <string name="kodePos">Zip Code</string>
     <string name="negara">Country</string>
-
     <string-array name="daftarNegara">
         <item>Indonesia</item>
         <item>Singapore</item>
@@ -15,12 +14,10 @@
         <item>Philippines</item>
         <item>Australia</item>
     </string-array>
-
     <string-array name="language_options">
         <item>English</item>
         <item>Indonesia</item>
     </string-array>
-
     <string name="pemakai">User</string>
     <string name="nama">Name</string>
     <string name="telp">Telephone</string>

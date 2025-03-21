@@ -1,12 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Formulir Multi Bahasa</string>
     <string name="bahasa">Bahasa</string>
-    <string name="pilihbahasa">pilih bahasa</string>
+    <string name="pilihbahasa">Pilih Bahasa</string>
     <string name="lokasi">Lokasi</string>
     <string name="jalan">Jalan</string>
     <string name="kodePos">Kode Pos</string>
     <string name="negara">Negara</string>
-
     <string-array name="daftarNegara">
         <item>Indonesia</item>
         <item>Singapura</item>
@@ -14,12 +14,10 @@
         <item>Filipina</item>
         <item>Australia</item>
     </string-array>
-
     <string-array name="language_options">
         <item>English</item>
         <item>Bahasa Indonesia</item>
     </string-array>
-
     <string name="pemakai">Pemakai</string>
     <string name="nama">Nama</string>
     <string name="telp">Telepon</string>
